@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.0;net452;net46;net461;net471;net472</TargetFrameworks>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>mscorlib@live.com</Authors>
+        <PackageIcon>Whizbang.png</PackageIcon>
+        <PackageProjectUrl>https://github.com/mscorlib/Whizbang.EventStore.Mysql</PackageProjectUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Whizbang.Core" Version="1.0.0" />
+        <PackageReference Include="MySql.Data" Version="8.0.20" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="..\Whizbang.png">
+            <Pack>True</Pack>
+            <PackagePath></PackagePath>
+        </None>
+    </ItemGroup>
+    
+
+</Project>
